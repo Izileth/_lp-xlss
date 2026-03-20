@@ -4,6 +4,7 @@ import {
 
 import Page from "../pages";
 import PageSubscription from "../pages/subscription";
+import Lobby from "../pages/lobby";
 
 const Router = createBrowserRouter([
     {
@@ -13,7 +14,11 @@ const Router = createBrowserRouter([
     {
         path: "/subscription",
         Component: PageSubscription,
-    }
+    },
+    {
+        path: "/lobby",
+        Component: Lobby,
+    },
 ]);
 
 
